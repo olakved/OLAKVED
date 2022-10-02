@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+  }
+  
+  .headerbox {
+    padding: 0px 30px;
+    background-color: rgb(56, 1, 56);
+  }
+  
+  .header {
+    display: flex;
+    padding: 25px;
+  }
+  
+  .classa img {
+    width: 45%;
+  }
+  
+  .classb {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .classb a {
+    margin-top: 12px;
+    color: white;
+  }
+  

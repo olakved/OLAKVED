@@ -1,0 +1,846 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+.headerbox {
+  padding: 0px 30px;
+  background-color: rgb(56, 1, 56);
+}
+
+.header {
+  display: flex;
+  padding: 25px;
+}
+
+.classa img {
+  width: 45%;
+}
+
+.classb {
+  display: flex;
+  gap: 20px;
+}
+
+.classb a {
+  margin-top: 12px;
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  min-height: 550px;
+}
+
+.welcometext {
+  position: absolute;
+  top: 0;
+  margin-top: 170px;
+  padding: 60px;
+}
+
+.welcometext h1 {
+  width: 50%;
+  line-height: 1.4;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  padding: 0.7rem 2rem;
+  color: purple;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+
+  /* @media screen and (max-width: 425px) {
+        margin-top: 5px;
+    } */
+}
+
+.valuebox {
+  padding: 50px 100px;
+}
+
+.valueblock {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: rgb(56, 1, 56);
+  border-radius: 12px;
+  opacity: 0.9;
+}
+
+.valuea,
+.valueb {
+  border-right: 1px dotted white;
+}
+
+.valuea,
+.valueb,
+.valuec {
+  padding: 0px 15px;
+  color: white;
+}
+
+#icon {
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: white;
+}
+
+.valuea h3,
+.valueb h3,
+.valuec h3 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.valuea p,
+.valueb p,
+.valuec p {
+  font-size: 15px;
+}
+
+/* Our schools Section*/
+
+.schoolswrap {
+  background-color: rgb(56, 1, 56);
+  opacity: 0.9;
+}
+
+.parentflexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.childflexbox {
+  /* display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  align-self: center;
+  padding: 0px 100px;
+  margin-top: 50px;
+  border-radius: 12px;
+  position: relative; */
+
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 40px 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  background-color: rgb(190, 161, 190);
+  border-radius: 12px;
+  position: relative;
+}
+
+
+.childbox1,
+.childbox2,
+.childbox3,
+.childbox4,
+.childbox5,
+.childbox6 {
+  padding: 0px 15px;
+  /* color: rgb(141, 10, 10); */
+  border-radius: 8px;
+}
+
+
+
+.childbox1 {
+  background-color: rgb(18, 68, 112);
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  /* color: white; */
+}
+
+.childbox1,
+.childbox2,
+.childbox3,
+.childbox4,
+.childbox5,
+.childbox6,
+a {
+  /* margin-left: 30px;
+  margin-right: 30px; */
+  text-align: center;
+}
+
+.childbox1 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox1 a {
+  color: white;
+  font-size: 18px;
+}
+
+.childbox2 {
+  background-color: aliceblue;
+  text-align: center;
+  /* color: rgb(94, 3, 94); */
+}
+
+.childbox2 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox2 a {
+  color: rgb(56, 1, 56);
+  font-size: 18px;
+}
+
+.childbox3 {
+  /* background-color: aliceblue; */
+  background-color: rgb(18, 68, 112);
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  /* color: rgb(94, 3, 94); */
+  /* color: white; */
+}
+
+.childbox3 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox3 a {
+  color: white;
+  font-size: 18px;
+}
+
+.childbox4 {
+  background-color: aliceblue;
+  /* background-color: rgb(18, 68, 112); */
+  margin-right: 30px;
+  text-align: center;
+  /* color: blue; */
+}
+
+.childbox4 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox4 a {
+  color: rgb(56, 1, 56);
+  font-size: 18px;
+}
+
+.childbox5 {
+  /* background-color: aliceblue; */
+  background-color: rgb(18, 68, 112);
+  margin-right: 30px;
+  text-align: center;
+  /* color: white; */
+}
+
+.childbox5 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox5 a {
+  color: white;
+  font-size: 18px;
+}
+
+.childbox6 {
+  background-color: aliceblue;
+  /* background-color: rgb(18, 68, 112); */
+  margin-right: 30px;
+  text-align: center;
+  /* color: purple; */
+}
+
+.childbox6 img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.childbox6 a {
+  color: rgb(56, 1, 56);
+  font-size: 18px;
+}
+
+.schoolintro {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  /* background-color: blue; */
+}
+
+.schoolsintroa {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.schoolsintroa h1 {
+  font-size: 30px;
+}
+
+.schoolsintroa p {
+  font-size: 12px;
+}
+
+
+
+/* BOARD START */
+
+.boardwrap {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.boardintro {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* background-color: blue; */
+}
+
+.boardintroa {
+  margin-top: 40px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.boardintroa h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.boardintroa p {
+  font-size: 12px;
+  color: rgb(56, 1, 56);
+}
+
+.boardparentflexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.boardchildflexbox {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 40px 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  /* background-color: rgb(190, 161, 190); */
+  border-radius: 12px;
+  position: relative;
+}
+
+
+/* .boardchildbox1,
+.boardchildbox2,
+.boardchildbox3, {
+padding: 0px 15px;
+color: rgb(141, 10, 10);
+border-radius: 8px;
+} */
+
+
+
+.boardchildbox1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.boardchildbox1 img {
+  position: relative;
+  width: 220px;
+  height: 290px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+
+.boardchildbox2 {
+  text-align: center;
+}
+
+.boardchildbox2 img {
+  position: relative;
+  width: 220px;
+  height: 290px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.boardchildbox3 {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+
+}
+
+.boardchildbox3 img {
+  position: relative;
+  width: 220px;
+  height: 290px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.boardiconbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boardiconboxtitle {
+  color: black;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.boardiconboxtitle p {
+  font-size: 15px;
+}
+
+.boardiconboxsocial {
+  text-align: right;
+  margin-right: 20px;
+}
+
+#boardicon {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+/* BOARD END */
+
+/* QUESTION START */
+
+.questionwrap {
+  background-color: rgb(56, 1, 56);
+  opacity: 0.9;
+}
+
+.questionbox {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 40px 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  /* background-color: rgb(190, 161, 190); */
+  border-radius: 12px;
+  position: relative;
+}
+
+
+.questionboxtext {
+  margin-left: 100px;
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  line-height: 1.6;
+  /* background-color: aqua; */
+}
+
+.questionboxtext h1 {
+  margin-left: 80px;
+  width: 50%;
+  line-height: 1.4;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+}
+
+.questionboxtext p {
+  margin-left: 80px;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 100;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+.questionform {
+  background-color: white;
+  margin-right: 250px;
+  width: 30%;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.queformname {
+  width: 100px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.queformname input {
+  width: 320px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-color: rgb(56, 1, 56);
+}
+
+.queformname label {
+  font-size: 10px;
+}
+
+
+
+.queform2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 15px;
+  padding-right: 40px;
+  line-height: 1.5;
+}
+
+.queform2 input {
+  width: 150px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-color: rgb(56, 1, 56);
+}
+
+.queform2 label {
+  font-size: 10px;
+}
+
+
+.queform3 {
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.queformfeedback input {
+  width: 320px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1;
+  border-color: rgb(56, 1, 56);
+  line-height: 2;
+}
+
+.queformfeedback label {
+  font-size: 10px;
+}
+
+.queformbutton {
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn2 a {
+  color: white;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.btn2 {
+  padding: 0.4rem 2rem;
+  background-color: rgb(56, 1, 56);
+  color: white;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  width: 320px;
+  /* min-width: 64px; */
+
+  /* @media screen and (max-width: 425px) {
+        margin-top: 5px;
+    } */
+}
+
+/* QUESTION FORM ENDS HERE */
+
+
+/* FOOTER STARTS HERE */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.footersec1 {
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.footersec1 img {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.footersec1icon {
+  display: flex;
+  align-content: center;
+  margin-left: 50px;
+  gap: 20px;
+}
+
+.footersec1icon a{
+  color: black;
+}
+
+.footersec2 h3{
+  margin-bottom: 20px;
+}
+
+.footersec2 a {
+  display: flex;
+  align-content: left;
+  padding: 10px;
+  color: black;
+}
+.footersec3 h3{
+  margin-bottom: 20px;
+}
+
+.footersec3 a{
+  display: flex;
+  align-content: left;
+  padding: 10px;
+  color: black;
+  font-size: 13px;
+}
+
+.footersec4 h3{
+  margin-bottom: 20px;
+}
+.footersec4 {
+  margin-right: 50px;
+}
+
+.footersec4 p{
+  font-size: 15px;
+}
+
+#footericon{
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.footerb{
+  display: flex;
+  align-content: left;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.footerb2{
+  display: flex;
+  align-content: left;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.footerb3{
+  display: flex;
+  align-content: left;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.footerb4{
+  display: flex;
+  align-content: left;
+  gap: 10px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: rgb(43, 41, 41);
+  margin-bottom: 50px;
+  gap: 5px;
+}
+
+
+/* FOOTER ENDS */
+
+
+
+
+
+
+/* Median Query */
+
+@media screen and (min-width: 1025px) {
+  .classb a {
+    margin-top: 23px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .container img {
+    background-size: cover;
+  }
+
+  .classa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .classb {
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcometext {
+    display: none;
+  }
+
+  .valuebox {
+    padding: 50px 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .classa {
+    margin-bottom: 0px;
+  }
+
+  .classa img {
+    width: 80%;
+  }
+
+  .classb {
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .valueblock {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .valuea,
+  .valueb {
+    border-bottom: 1px dotted white;
+    border-right: 0px;
+  }
+
+  .valuea p,
+  .valueb p {
+    margin-bottom: 18px;
+  }
+
+  .schoolsintroa h1 {
+    font-size: 16px;
+  }
+
+  .schoolsintroa p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 10px;
+  }
+
+  .classb {
+    padding: 7px;
+  }
+
+  .mobilehide {
+    display: none;
+  }
+
+  .schoolsintroa h1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .valuea p,
+  .valueb p,
+  .valuec p {
+    text-align: center;
+  }
+
+  #icon {
+    text-align: center;
+  }
+
+  .valuea h3,
+  .valueb h3,
+  .valuec h3 {
+    text-align: center;
+  }
+
+  .iconbox {
+    display: flex;
+    justify-content: center;
+  }
+}
