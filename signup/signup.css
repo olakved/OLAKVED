@@ -52,13 +52,13 @@
   position: relative;
 }
 
-.logintext {
+.signuptext {
   position: absolute;
   top: 0;
-  margin: 140px 130px;
+  margin: 170px 130px;
 }
 
-.logintext h3 {
+.signuptext h3 {
   text-align: center;
   color: azure;
   font-size: 80px;
@@ -114,6 +114,13 @@ input {
   padding: 10px 100px;
 }
 
+#submit {
+  padding: 10px 100px;
+  margin-top: 15px;
+  background-color: rgb(56, 1, 56);
+  color: white;
+}
+
 #forgotpassword {
   font-size: 12px;
   text-align: right;
@@ -124,31 +131,23 @@ input {
   gap: 8px;
 }
 
-.btn1,
-.btn2 {
+.btn1 {
   padding: 8px;
-  background-color: rgb(56, 1, 56);
-  color: white;
+  background-color: white;
+  color: rgb(56, 1, 56);
   box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
     0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
   outline: none;
-  border: none;
+  border: 1px solid rgb(56, 1, 56);
   cursor: pointer;
   margin-top: 10px;
   font-size: 13px;
   border-radius: 8px;
-}
-
-.btn1 {
-  width: 50%;
-  background-color: white;
-  color: rgb(56, 1, 56);
-  border: 1px solid rgb(56, 1, 56);
-}
-
-.btn2 {
   width: 100%;
 }
+
+
+
 
 .div2 img {
   width: 100%;
@@ -175,9 +174,10 @@ input {
     width: 50%;
   }
 
-  .btn2 {
+  #submit {
     width: 100%;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
