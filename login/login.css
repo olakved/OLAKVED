@@ -150,6 +150,17 @@ input {
   width: 100%;
 }
 
+.imgoverlay{
+  position: absolute;
+  top: 0;
+  background-color: rgb(56, 1, 56);
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.5;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 10px;
+}
+
 .div2 img {
   width: 100%;
   min-height: 100%;
