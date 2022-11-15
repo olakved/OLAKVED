@@ -5,27 +5,106 @@
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
-}
-
-.header{
-    background-color: rgb(56, 1, 56);
-    padding: 25px;
-}
-
-.logo img{
-    width: 250px;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
-a{
-    margin-top: 5px;
-}
-
-body {
-    background-color: white;
   }
   
+  .headerbox {
+    padding: 0px 30px;
+    background-color: rgb(56, 1, 56);
+  }
+  
+  .header {
+    display: flex;
+    padding: 25px;
+  }
+  
+  .classa img {
+    width: 45%;
+  }
+  
+  .classb {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .classb a {
+    margin-top: 12px;
+    color: white;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .container img {
+    width: 100%;
+    max-height: 500px;
+  }
+  
+  .welcometext {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 60px;
+   margin-left: 500px;
+  }
+  
+  .welcometext h1 {
+    width: 60%;
+    line-height: 1.4;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+  }
+  
+
+/* HISTORY BOX STARTS */
+  .historycontainer{
+    display: flex;
+    margin-top: 50px;
+    padding: 0px 70px;
+  }
+
+  .historycontainer h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(56, 1, 56);
+  }
+
+  .historycontainer p{
+    text-align: justify;
+    line-height: 1.5;
+  }
+  /* HISTORY BOX ENDS */
+
+  /* ACHIEVEMENTS */
+  .achievementwrap{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 70px;
+  }
+
+  .achievementwrap h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(56, 1, 56);
+  }
+
+  .achievementbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .achievementbox img{
+    width: 200px;
+    height: 280px;
+    border-top-left-radius: 12px;
+  }
+
+  .achievementbox p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(56, 1, 56);
+  }
+
