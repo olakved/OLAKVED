@@ -100,7 +100,7 @@
   .histsect2B img{
     max-width: 400px;
     max-height: 500px;
-    border-top-left-radius: 12px;
+    border-top-left-radius: 25px;
     margin-left: 30px;
     margin-right: 40px;
     border: rgb(56, 1, 56) 2px solid;
@@ -115,11 +115,46 @@
     line-height: 0;
   }
 
+  .histsect3titlewrap{
+    background-color: rgb(56, 1, 56);
+    margin-bottom: 40px;
+    padding: 0px 60px;
+    height: 60px;
+  }
+
+  .histsect3titlewrap h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .histsect3wrap{
+    margin-top: 60px;
+    padding: 0px 100px;
+  }
+
+  .histsect3{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .histsect3 img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+  }
+
+  .histsect3A{
+    text-align: center;
+    line-height: 1.3;
+  }
+
+
   /* HISTORY BOX ENDS */
 
   /* ACHIEVEMENTS */
   .achievementwrap{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     padding: 30px 70px;
     background-color: rgb(56, 1, 56);
